@@ -51,9 +51,9 @@ fn main() {
         }
     }
 
-    println!("The temperature in Celsius: {c}°C");
-    println!("The temperature in Fahrenheit: {f}°F");
-    println!("The temperature in Kelvin: {k}°K");
+    println!("The temperature in Celsius: {:.2}°C", c);
+    println!("The temperature in Fahrenheit: {:.2}°F", f);
+    println!("The temperature in Kelvin: {:.2}°K", k);
 }
 
 fn fahrenheit(c: f32) -> f32 {
